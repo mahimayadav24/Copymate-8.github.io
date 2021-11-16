@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Montserrat__Medium;
+    src: url('../Fonts/Montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: Montserrat__SemiBold;
+    src: url('../Fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat__Bold;
+    src: url('../Fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Helvetica__Bold;
+    src: url('../Fonts/Helvetica-Bold.ttf');
+}
+
+.ft__banner img {
+    width: 100%;
+}
+
+.bl__section {
+    height: 100vh;
+}
+
+.ft__banner {
+    position: relative;
+    top: 0;
+}
+
+.text__content {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.text__content h2 {
+    font-family: 'Helvetica__Bold';
+    color: rgba(255, 255, 255, 1);
+    font-size: calc(22pt + 0.15vw);
+    letter-spacing: 0.03em;
+}
+
+.pink {
+    background-color: rgba(255, 19, 98, 1);
+    padding: 40px 140px;
+    width: 109.5%;
+}
+
+@media screen and (max-width: 1368px) {
+    .pink {
+        width: 108.5%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .pink {
+        width: 108.5%;
+    }
+}
+
+.text__content .text {
+    margin: 0px -80px 0px -10px;
+    text-align: center;
+}
+
+.text__content h4 {
+    color: rgba(255, 69, 38, 1);
+    font-family: 'Helvetica__Bold';
+    font-size: calc(16pt + 0.15vw);
+    line-height: 1.4195;
+    letter-spacing: 0.03em;
+}
+
+.text__content p {
+    color: rgba(74, 72, 73, 1);
+    font-family: 'Montserrat__Medium';
+    font-size: calc(13pt + 0.15vw);
+    line-height: 1.4195;
+    letter-spacing: 0.04em;
+}
+
+.text p span {
+    font-family: 'Montserrat__SemiBold';
+}
+
+.text__content h5 {
+    color: rgba(104, 104, 104, 1);
+    font-size: calc(16pt + 0.15vw);
+    line-height: 1.4195;
+    letter-spacing: 0.04em;
+    font-family: 'Montserrat__Bold';
+}
+
+.text button {
+    border: none;
+    background-color: rgba(255, 199, 0, 1);
+    color: rgba(62, 62, 61, 1);
+    padding: 10px 70px;
+    font-family: 'Montserrat__Bold';
+    border-radius: 30px;
+    font-size: calc(16pt + 0.15vw);
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    box-shadow: 0px 12px 20px rgb(66 66 66 / 20%);
+}
+
+.text button:hover {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    background-color: rgba(255, 19, 98, 1);
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1080px) {
+    .text__content h2 {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text__content h4 {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text__content p {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text__content h5 {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text button {
+        font-size: calc(12pt + 0.15vw);
+        margin: 10px 0px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text__content h5 {
+        margin: 0px 0px !important;
+    }
+    .pink {
+        padding: 20px 100px;
+        width: 107.8%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .text__content h2 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content h4 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content p {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content h5 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text button {
+        font-size: calc(8pt + 0.15vw);
+        margin: 10px 0px !important;
+        padding: 8px 20px;
+    }
+    .text__content .text {
+        margin: 0px -25px 0px 0px;
+    }
+    .pink {
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    .text__content h2 {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .text__content h4 {
+        font-size: calc(6pt + 0.15vw);
+        margin: 10px 0px 0px 0px !important;
+    }
+    .text__content p {
+        font-size: calc(6pt + 0.15vw);
+        margin: 8px 0px !important;
+    }
+    .text__content h5 {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .text button {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .pink {
+        padding: 8px 50px;
+    }
+    .text__content .text {
+        margin: 0px -40px 0px 0px;
+    }
+    .text__content h4 span {
+        color: #ffffff;
+    }
+}
